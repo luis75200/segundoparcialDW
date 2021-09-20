@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <a href="#" class ="boton" id="btnCerrarSesion">Cerrar Sesion</a>
+            <a href="registrarLibros.html"></a>
+            <a href="mostrarExistencia.html">Mostrar Existencias</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>libros</h1>
+        <form action="">
+            <div>
+            </div>
+            <div>
+                <input type="number" name="" id="txtIsbn"  placeholder="ID...">
+                <input type="text" name="" id="txtTitulo" placeholder="TITULO...">
+                <input type="text" name="" id="txtAutor" placeholder="AUTOR...">
+                <input type="text" name="" id="txtEditorial" placeholder="EDITORIAL...">
+                <input type="number" name="" id="txtAnno" placeholder="EDICION...">
+            </div>
+
+            <div></div>
+            <a href="#" class ="boton" id="btnRegistrar">Registrar</a>
+        </form>
+
+        <table id="tblLibros">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>titutlo</th>
+                    <th>autor</th>
+                    <th>editorial</th>
+                    <th>existencia</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+        </table>
+    </main>
+
+    <script src="js/registrarLibros.js"></script>
+    <script src="js/mostrarLibros.js"></script>
+	<script src="js/cerrarSesion.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+
+    <script src="js/localstorage.js"></script>
+	    <script src="js/jquery-3.3.1.min.js"></script>
+</body>
+</html>
